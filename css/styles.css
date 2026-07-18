@@ -169,11 +169,11 @@ section { padding: clamp(4.5rem, 9vw, 8rem) 0; }
 /* ---------- Floating WhatsApp ---------- */
 .whatsapp-float {
   position: fixed; right: 24px; bottom: 24px; width: 60px; height: 60px;
-  background: var(--wa); border-radius: 50%; display: flex; align-items: center; justify-content: center;
+  background: #ffffff; border: 2px solid var(--wa); border-radius: 50%; display: flex; align-items: center; justify-content: center;
   box-shadow: 0 6px 18px rgba(0,0,0,0.28); z-index: 100; transition: transform .2s ease;
 }
 .whatsapp-float:hover { transform: scale(1.08); text-decoration: none; }
-.whatsapp-float svg { width: 34px; height: 34px; fill: #fff; }
+.whatsapp-float svg { width: 34px; height: 34px; fill: var(--wa); }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 860px) {
@@ -187,4 +187,21 @@ section { padding: clamp(4.5rem, 9vw, 8rem) 0; }
   .nav-links.open { display: flex; }
   .nav-toggle { display: block; }
   .site-footer .container { grid-template-columns: 1fr; }
+}
+
+/* --- Mobile form & tap-target hardening --- */
+@media (max-width: 640px) {
+  .contact-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+  .field input, .field textarea { font-size: 16px; padding: 0.85rem 0.9rem; }
+  .btn, button.btn { width: 100%; text-align: center; padding: 1rem; }
+  .whatsapp-float { width: 54px; height: 54px; right: 16px; bottom: 16px; }
+  .hero { min-height: 80vh; }
+  .hero h1 { font-size: clamp(2.25rem, 9vw, 3rem); }
+  .gallery { grid-template-columns: 1fr 1fr; gap: 4px; }
+  .gallery img { height: 220px; }
+  .cards { grid-template-columns: 1fr; }
+  .stats { grid-template-columns: 1fr 1fr; }
+  section { padding: 3.5rem 0; }
+  .nav { padding: 0.9rem var(--pad); }
+  .brand { font-size: 1.15rem; }
 }
