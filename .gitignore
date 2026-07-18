@@ -1,0 +1,5 @@
+# Don't publish local tooling / attachments
+.hermes/
+.DS_Store
+Thumbs.db
+*.log
