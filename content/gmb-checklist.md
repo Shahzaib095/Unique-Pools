@@ -1,5 +1,6 @@
 # Unique Pools — Local SEO & Citations Checklist
 _Pillar #2 of ranking "on top": local signals + backlinks. Status as of 2026-07-19._
+**GMB: CLAIMED/VERIFIED (owner confirmed 2026-07-19).** Next step = NAP alignment + optimization.
 
 ## 1) Google Business Profile (GMB) — DO THIS FIRST
 The #1 local-ranking factor for "near me" / city searches. Free.
