@@ -163,7 +163,9 @@ section { padding: clamp(4rem, 8vw, 7rem) 0; }
 .faq-item p { margin: 0.9rem 0 0; font-family: var(--font-body); }
 
 /* ---------- Contact ---------- */
-.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; }
+.contact-grid { display: grid; grid-template-columns: 1.2fr 1fr 1fr; gap: 2.5rem; align-items: start; }
+.contact-map { border-radius: 12px; overflow: hidden; border: 1px solid var(--border); min-height: 320px; }
+.contact-map iframe { width: 100%; height: 100%; min-height: 320px; border: 0; display: block; }
 .contact-info { list-style: none; padding: 0; margin: 0; }
 .contact-info li { margin-bottom: 1.3rem; font-size: 1.05rem; }
 .contact-info strong { color: var(--muted); display: block; font-family: var(--font-body); font-size: .72rem; text-transform: uppercase; letter-spacing: .15em; margin-bottom: .25rem; font-weight: 600; }
@@ -198,6 +200,7 @@ section { padding: clamp(4rem, 8vw, 7rem) 0; }
 /* ---------- Responsive ---------- */
 @media (max-width: 860px) {
   .feature, .contact-grid { grid-template-columns: 1fr; }
+  .contact-map { min-height: 280px; }
   .feature.reverse { direction: ltr; }
   .nav-links {
     position: absolute; top: 100%; left: 0; right: 0; flex-direction: column;

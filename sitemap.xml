@@ -21,8 +21,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.uniquepools.example/contact.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://www.uniquepools.example/karachi-pools.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
-</urlset>
+  <url>
+    <loc>https://www.uniquepools.example/dubai-mep.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
