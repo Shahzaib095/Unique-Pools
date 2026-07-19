@@ -30,5 +30,5 @@ A static, SEO-optimised, multi-page website for **Unique Pools & General Mainten
 |To use a custom domain, add a `CNAME` file containing your domain and update the URLs in the HTML/JSON-LD/sitemap from `uniquepools.example` to your domain. (Done: custom domain is **uniquepools.co**; `CNAME` + all URLs already updated.)
 
 ## Notes
-- Replace `wa.me/923152073351` if the WhatsApp number changes.
+- WhatsApp floats link to `+92 335 3477142` (Pakistan); contact block also lists UAE WA `+971 58 551 8785`. Update in all HTML `+ wa.me/` hrefs if numbers change.
 - The contact form uses a Formspree placeholder in `contact.html`; set a real endpoint to receive emails, or rely on the mailto link.
