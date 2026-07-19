@@ -119,6 +119,19 @@ section { padding: clamp(4rem, 8vw, 7rem) 0; }
 .stat .figure { font-family: var(--font-head); font-size: 3rem; color: var(--ink); font-weight: 800; line-height: 1; }
 .stat .label { text-transform: uppercase; letter-spacing: 0.1em; font-size: .72rem; color: var(--muted); font-family: var(--font-body); font-weight: 600; }
 
+/* ---------- Why-pool section: pool photo background ---------- */
+.why-pool { position: relative; overflow: hidden; }
+.why-pool::before {
+  content: ""; position: absolute; inset: 0; z-index: 0;
+  background: url("../img/why-pool-bg.jpg") center/cover no-repeat fixed;
+}
+.why-pool::after {
+  content: ""; position: absolute; inset: 0; z-index: 0;
+  background: linear-gradient(180deg, rgba(246,244,240,0.92) 0%, rgba(246,244,240,0.82) 100%);
+}
+.why-pool .container { position: relative; z-index: 1; }
+.why-pool .reason { background: rgba(255,255,255,0.92); backdrop-filter: blur(2px); }
+
 /* ---------- Why-pool cards ---------- */
 .reasons { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin-top: 2.5rem; }
 .reason { background: #fff; border: 1px solid var(--border); border-radius: 14px; padding: 2rem 1.75rem; transition: transform .2s ease, box-shadow .2s ease; }
