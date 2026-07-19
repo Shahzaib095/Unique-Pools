@@ -178,15 +178,25 @@ section { padding: clamp(4rem, 8vw, 7rem) 0; }
 .quote { font-family: var(--font-body); font-size: 1.4rem; color: var(--ink); font-weight: 300; line-height: 1.45; border-left: 3px solid var(--navy); padding-left: 1.5rem; margin: 0 0 1rem; }
 .quote-by { font-family: var(--font-head); text-transform: uppercase; letter-spacing: .12em; font-size: .8rem; color: var(--muted); font-weight: 600; }
 
-/* ---------- Footer (NAVY — kept per request) ---------- */
-.site-footer { background: var(--navy); color: rgba(255,255,255,0.72); padding: 4rem 0 2rem; }
-.site-footer .container { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 2.5rem; }
-.site-footer h4 { color: #fff; font-family: var(--font-head); font-weight: 700; font-size: 1rem; letter-spacing: 0.01em; margin-bottom: 1.2rem; }
-.site-footer a { color: rgba(255,255,255,0.72); }
+/* ---------- Footer (NAVY — Astra-style 4-col + bottom bar) ---------- */
+.site-footer { background: var(--navy); color: rgba(255,255,255,0.72); padding: 3.5rem 0 1.4rem; font-size: .92rem; line-height: 1.6; }
+.footer-grid { display: grid; grid-template-columns: 1.8fr 1fr 1.2fr 1fr; gap: 2.4rem; }
+.foot-brand .foot-logo { font-family: var(--font-head); font-size: 1.3rem; font-weight: 800; color: #fff; text-transform: uppercase; letter-spacing: 0.02em; text-decoration: none; display: inline-block; margin-bottom: .9rem; }
+.foot-brand .foot-logo span { opacity: .55; }
+.foot-brand p { margin: 0 0 .7rem; max-width: 34ch; }
+.foot-contact a { color: #fff; text-decoration: none; }
+.foot-contact a:hover { text-decoration: underline; }
+.site-footer h4 { color: #fff; font-family: var(--font-head); font-weight: 700; font-size: .8rem; text-transform: uppercase; letter-spacing: .09em; margin: 0 0 .9rem; }
+.site-footer a { color: rgba(255,255,255,0.72); text-decoration: none; }
 .site-footer a:hover { color: #fff; }
 .site-footer ul { list-style: none; padding: 0; margin: 0; }
-.site-footer ul li { margin-bottom: .6rem; }
-.footer-bottom { border-top: 1px solid rgba(255,255,255,0.14); margin-top: 3rem; padding-top: 1.6rem; font-size: .82rem; text-align: center; font-family: var(--font-body); letter-spacing: 0.04em; }
+.site-footer ul li { margin-bottom: .55rem; }
+.site-footer .foot-group { color: #fff; font-weight: 600; margin-top: .3rem; }
+.site-footer .foot-group ul { margin: .4rem 0 0; padding-left: .8rem; }
+.site-footer .foot-group ul li { font-weight: 400; color: rgba(255,255,255,0.72); }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.14); margin-top: 2.4rem; padding-top: 1.2rem; font-size: .78rem; display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; font-family: var(--font-body); color: rgba(255,255,255,0.55); }
+.footer-bottom .foot-legal a { color: rgba(255,255,255,0.55); }
+.footer-bottom .foot-legal a:hover { color: #fff; }
 
 /* ---------- Floating WhatsApp (navy circle, white logo) ---------- */
 .whatsapp-float {
