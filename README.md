@@ -27,7 +27,7 @@ A static, SEO-optimised, multi-page website for **Unique Pools & General Mainten
 2. In **Repo → Settings → Pages**, set Source = "GitHub Actions".
 3. The site deploys automatically on every push.
 
-To use a custom domain, add a `CNAME` file containing your domain and update the URLs in the HTML/JSON-LD/sitemap from `uniquepools.example` to your domain.
+|To use a custom domain, add a `CNAME` file containing your domain and update the URLs in the HTML/JSON-LD/sitemap from `uniquepools.example` to your domain. (Done: custom domain is **uniquepools.co**; `CNAME` + all URLs already updated.)
 
 ## Notes
 - Replace `wa.me/923152073351` if the WhatsApp number changes.
