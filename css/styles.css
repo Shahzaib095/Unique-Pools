@@ -183,7 +183,7 @@ section { padding: clamp(4rem, 8vw, 7rem) 0; }
 .footer-grid { display: grid; grid-template-columns: 1.8fr 1fr 1.2fr 1fr; gap: 2.4rem; }
 .foot-brand .foot-logo { font-family: var(--font-head); font-size: 1.3rem; font-weight: 800; color: #fff; text-transform: uppercase; letter-spacing: 0.02em; text-decoration: none; display: inline-block; margin-bottom: .9rem; }
 .foot-brand .foot-logo span { opacity: .55; }
-.foot-brand p { margin: 0 0 .7rem; max-width: 34ch; }
+.foot-brand p { margin: 0 0 .7rem; max-width: 34ch; color: rgba(255,255,255,0.92); }
 .foot-contact a { color: #fff; text-decoration: none; }
 .foot-contact a:hover { text-decoration: underline; }
 .site-footer h4 { color: #fff; font-family: var(--font-head); font-weight: 700; font-size: .8rem; text-transform: uppercase; letter-spacing: .09em; margin: 0 0 .9rem; }
